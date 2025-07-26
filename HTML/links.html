@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links in HTML</title>
+</head>
+<body>
+    <!--Hyper Links-->
+
+    <!--
+    If we click order online it will redirect to swiggy in the same page or tab
+    we have to give redirecting link in href and the name to display in the <a href="">name</a>
+    href=>hypertext reference
+    -->
+    <a href="https://www.swiggy.com/">Order Online</a>
+
+    <!--If we click order online it will redirect to swiggy in the new tab so we need to give target="_blank"-->
+    <a href="https://www.swiggy.com/" target="_blank">Order Online</a>
+
+    <!--
+    If we Click Home or About it will redirect to that we create page 
+    We have to give the page path in the href
+    -->
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <!--
+    if the home in the another folder and menu is in the root 
+    we give the /menu.html it go to the root folder menu.html file
+    we use / to go to the root folder
+    -->
+    <a href="/menu.html">Menu</a>
+
+    <!--
+    if the home in the another folder and menu is in the one folder before 
+    we give the ../menu.html it go to the root folder menu.html file
+    we use ../ to go to the one folder before
+    we can give the ../../ how much we want it will go two folder front
+    -->
+    <a href="../menu.html">Menu</a>
+
+    <!--
+    If we click the send mail it will open the mail and fill the to mail id
+    we can do it by <a href="mail:mailid">Send Mail</a>
+    -->
+    <a href="mailto:kabileshvijay05@gmail.com">Send Mail</a>
+
+    <!--
+    If we click the dessert it should display the dessert but it is in the bottem of the menu page
+    if we use id named dessert we have add the id in the href
+    <h2 id="dessert">Dessert</h2>
+    <ol>
+        <li>Gulab Jamun Rs.55</li>
+        <li>Basundi Rs.110</li>
+        <li>Mango Lassi Rs.65</li>
+    </ol>
+    it is id so we have to use the # before it
+    if we give like this it go to dessert even it is below
+    -->
+    <a href="menu.html#dessert">Check our new dessert</a>
+    <!--If we are in the menu page means-->
+    <a href="#dessert">Check our new dessert</a>
+</body>
+</html>
