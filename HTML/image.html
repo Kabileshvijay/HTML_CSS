@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images in HTML</title>
+</head>
+<body>
+    <!--
+    we use <img src="" alt=""> to add images in our page
+    in src we give the image path
+    in alt we give the name to be displayed if the image is unable to load
+    in title we give the name that will display when we keep the cursor on the image it will hover the name
+    we can give the height and width of image in img tag itself
+    -->
+    <img src="images/Dosa.jpg" alt="Special dosa with sambar" title="Signature Dosa" height="500" width="500">
+
+    <!--we are using image with paragraph and the image should be left or right and para should come that means we can use align-->
+    <img src="images/Samosa.jpg" alt="Samosa" height="130" width="180" align="left">
+    <p>Our Samosa are the best in town.We sell almost 2000 samosas a day.This is must try.Samosas are crispy on outside with a spicy potato stuffing on the inside.</p>
+
+    <p><img src="images/Samosa.jpg" alt="Samosa" height="130" width="180" align="right">Our Samosa are the best in town.We sell almost 2000 samosas a day.This is must try.Samosas are crispy on outside with a spicy potato stuffing on the inside.</p>
+
+    <!--
+    We can give caption below the image by using figure and figcaption tag
+    Inside the figure tag we can give as many image we want
+    -->
+    <figure>
+        <img src="images/Dosa.jpg" alt="Dosa">
+        <br>
+        <figcaption>Dosa with Sambar</figcaption>
+    </figure>
+</body>
+</html>
